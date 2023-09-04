@@ -1,0 +1,43 @@
+﻿<Window x:Class="WPFAvioKompanija.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAgencija"
+        mc:Ignorable="d"
+        Title="Avio Kompanija" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF7A34D" Offset="1"/>
+                <GradientStop Color="#FF85F9F3" Offset="0.015"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Click="Button_Click" Content="Destinacija" Margin="65,113,575,273" Opacity="0.5" FontFamily="Arial Black" FontSize="20" Background="#FF0F43E4" Foreground="White">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Click="Button_Click_1" Content="Karta" Margin="64,329,576,53" Background="#FF0F43E4" Opacity="0.5" FontFamily="Arial Black" FontSize="20" BorderBrush="#FF949494" Foreground="White">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Click="Button_Click_2" Content="Klijent" Margin="65,45,575,341" Background="#FF0F43E4" Opacity="0.5" FontFamily="Arial Black" FontSize="20" Foreground="White">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Click="Button_Click_3" Content="Objekat" Margin="65,255,575,126" Opacity="0.5" Background="#FF0F43E4" FontFamily="Arial Black" FontSize="20" Foreground="White">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Click="Button_Click_5" Content="Klasa" Margin="64,181,576,200" Background="#FF0F43E4" Opacity="0.5" FontFamily="Arial Black" FontSize="20" Foreground="White">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Image  Source="/MainWindow slika.png" Margin="305,9,58,10"/>
+    </Grid>
+</Window>
